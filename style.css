@@ -32,14 +32,15 @@ header{
 }   
 .texto{
     scale: 150%;
-    margin-left: 150px;
+    margin-left: 125px;
 }
 img{
     display: flex;
     width: 220px;
-    margin: 15px;
+    margin: 10px;
     flex-direction: column;
     border: solid 1px rgba(255, 255, 255, 0.144);
+    border-radius: 15px;
 }
 img:hover{
     transform: scale(1.06);
@@ -75,7 +76,9 @@ p{
 
 @media (min-width: 360px) and (max-width: 449px){
     img{    
-        width: 40px;
+        width: 70px;
+        margin-top: 15px !important;
+        margin: 0;
     }
 .PORTAL{
     width: 250px;
