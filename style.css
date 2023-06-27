@@ -1,6 +1,7 @@
 
 body {
     background-color:#6852a5;
+    overflow-x: hidden;
 }
 .PORTAL{
     width: 500px;
@@ -29,7 +30,13 @@ header{
     border-radius: 25px;
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
     border: solid 1px rgba(255, 255, 255, 0.432);
+    height: 600px;
+ 
 }   
+.geral2{
+    height: 550px;
+    
+}
 .texto{
     scale: 150%;
     margin-left: 125px;
@@ -41,19 +48,45 @@ img{
     flex-direction: column;
     border: solid 1px rgba(255, 255, 255, 0.144);
     border-radius: 15px;
+    margin-top: 50px;
+
 }
 img:hover{
     transform: scale(1.06);
 }
+.imgV{
+    margin-left: 15px;
+}
+video{
+    width: 150px;
+    border-radius: 15px;
+    margin:35px;
+    margin-top: 100px !important;
+}
 
 
+h1{
+    font-family: Aileron;
+    color: white;
+}
 
 h2{
+    width: 250px;
     margin-left: -25px;
+    font-family: Aileron;
+    color: white;
 }
-p{
-    margin-top: -15px;
-    margin-left: -15px;
+.t1{
+    margin-left: -35px;
+}
+.t2{
+    margin-left: -50px;
+}
+.t3{
+    margin-left: 10px;
+}
+.t4{
+    margin-left: -75px;
 }
 
 .geral2{
@@ -65,32 +98,69 @@ p{
     border: solid 1px rgba(255, 255, 255, 0.432);
 }
 
-.geral3{
-    display: flex;
-    justify-content: center;
-    background-color: #886cd6;
-    border-radius: 25px;
-    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
-    border: solid 1px rgba(255, 255, 255, 0.432);
-}
+.pt1{
+    margin-left: 150px;
+   }
+
+   .parte02V{
+    
+    margin: 0 !important;
+   }
+
+
 
 @media (min-width: 360px) and (max-width: 449px){
-    img{    
-        width: 70px;
-        margin-top: 15px !important;
-        margin: 0;
+    
+    body{
+        overflow-x: hidden;
     }
-.PORTAL{
-    width: 250px;
-    margin-top: -50px !important;
-    margin-left: 75px;
+    .PORTAL{
+        margin-left: 230px;
+    }
+    .geral{
+        width:920px;
+        height: 1000px;
+    }
+    .img{
+        width: 100px;
+    }
+
+    .geral2{
+        width:920px;
+        height: 900px;
+    }
+   header{
+    width: 920px;
+   }
+   .pt1{
+    margin-top: 450px;
+    margin-right: -435px;
+   }
+   .pt4{
+    margin-top: 450px;
+    margin-left: -445px;
+   }
+   .parte04V{
+    margin-top: 430px;
+    margin-left: -455px;
+   }
+   .parte01V{
+    margin-top: 430px;
+    margin-right: -445px;
+   }
+   .Poster{
+    width: 450px;
+   }
+
+   .Posterr{
+    width: 450px;
+   }
+
 }
-.texto{
-    margin-top: -20px;
-    scale: 50%;
-    margin-left: 15px;
-}
-}
+
+
+
+
 
 @media (min-width: 450px) and (max-width: 560px){
     img{    
@@ -168,7 +238,6 @@ p{
 
     .PORTAL{
         margin-top: -100px !important;
-        margin-left: 340px;
     }
     
     .texto{
