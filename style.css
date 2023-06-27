@@ -73,6 +73,20 @@ p{
     border: solid 1px rgba(255, 255, 255, 0.432);
 }
 
+@media (max-width: 660px){
+    img{
+        width: 40px;
+    }
+.PORTAL{
+    margin-top: -100px !important;
+    margin-left: 170px;
+
+}
+.texto{
+    scale: 70%;
+    margin-left: 50px;
+}
+}
 
 @media (max-width: 900px){
     img{
@@ -80,7 +94,7 @@ p{
     }
 .PORTAL{
     margin-top: -100px !important;
-    margin-left: 180px;
+    margin-left: 183px;
 
 }
 .texto{
