@@ -73,6 +73,22 @@ p{
     border: solid 1px rgba(255, 255, 255, 0.432);
 }
 
+@media (min-width: 360px) and (max-width: 449px){
+    img{    
+        width: 40px;
+    }
+.PORTAL{
+    width: 250px;
+    margin-top: -50px !important;
+    margin-left: 75px;
+}
+.texto{
+    margin-top: -20px;
+    scale: 50%;
+    margin-left: 15px;
+}
+}
+
 @media (min-width: 450px) and (max-width: 560px){
     img{    
         width: 50px;
