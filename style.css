@@ -6,6 +6,10 @@ body {
     width: 500px;
     margin-left: 550px;
     margin-top: -100px;
+    border: none;
+}
+.PORTAL:hover{
+    transform: none;
 }
 header{
     background-color: #9c7bf8;
@@ -15,6 +19,7 @@ header{
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.250);
     margin-top: 20px;
     margin-bottom: 10px;
+    border: solid 1px rgba(255, 255, 255, 0.432);
 }
     
 .geral{
@@ -22,16 +27,26 @@ header{
     justify-content: center;
     background-color: #886cd6;
     border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
+    border: solid 1px rgba(255, 255, 255, 0.432);
 }   
 .texto{
     scale: 150%;
     margin-left: 150px;
 }
 img{
+    display: flex;
     width: 250px;
     margin: 15px;
     flex-direction: column;
+    border: solid 1px rgba(255, 255, 255, 0.144);
 }
+img:hover{
+    transform: scale(1.06);
+}
+
+
+
 h2{
     margin-left: -25px;
 }
@@ -45,7 +60,8 @@ p{
     justify-content: center;
     background-color: #886cd6;
     border-radius: 25px;
-
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
+    border: solid 1px rgba(255, 255, 255, 0.432);
 }
 
 .geral3{
@@ -53,4 +69,51 @@ p{
     justify-content: center;
     background-color: #886cd6;
     border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.103);
+    border: solid 1px rgba(255, 255, 255, 0.432);
+}
+
+
+@media (max-width: 900px){
+    img{
+        width: 100px;
+    }
+.PORTAL{
+    margin-top: -100px !important;
+    margin-left: 180px;
+
+}
+.texto{
+    scale: 80%;
+    margin-left: 50px;
+}
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px){
+    
+    img{
+        width: 150px;
+    }
+    .PORTAL{
+        margin-top: -100px !important;
+        margin-left: 180px;
+    
+    }
+    .texto{
+        scale: 100%;
+        margin-left: 65px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1310px){
+    img{
+        width: 130px;
+    }
+    
+    .texto{
+        scale: 100%;
+        margin-left: 65px;
+    }
+
 }
