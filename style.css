@@ -5,7 +5,7 @@ body {
 }
 .PORTAL{
     width: 500px;
-    margin-left: 550px;
+    margin-left: 575px;
     margin-top: -100px;
     border: none;
 }
@@ -126,7 +126,7 @@ h2{
 
 
 
-@media (min-width: 360px) and (max-width: 449px){
+@media (min-width: 370px) and (max-width: 449px){
     
     body{
         overflow-x: hidden;
@@ -134,143 +134,131 @@ h2{
     .PORTAL{
         margin: 0;
         margin-top: -50px;
-        margin-left: 45px;
+        margin-left: 60px;
         width: 250px;
+        justify-content: center!important;
     }
     .geral0{
-            width:350px;
-            height: 350px;
+            width:390px;
+            height: 250px;
         
     }
     .geral{
-        width:350px;
-        height: 1000px;
+        width:390px;
+        height: 800px;
     }
-    .int{
-        width: 180px !important;
+  .int{
+        width: 350px !important;
+        margin-top: 25px !important;
+        margin-left: -250px;
+
     }
-    .img{
-        width: 100px;
+ .img{
+    scale: 50%;
     }
+ .img1{
+  scale: 50%;
+        }
+  .imgV{
+ scale: 50%;
+            }
+h2{
+    scale: 60%;
+}
+h1{
+    scale: 75%;
+}
 
     .geral2{
-        width:350px;
-        height: 900px;
+        width:390px;
+        height: 750px;
     }
    header{
-    width: 350px;
+    width: 390px;
    }
+   
+
    .pt1{
-    margin-top: 450px;
+    margin-top: 250px;
     margin-right: -435px;
+    margin-left: 100px ;
    }
+   .t1{
+    margin-left: -5px;
+    margin-top: -85px;
+   }
+
+
+   .pt2{
+    margin-top: -100px;
+    margin-left: -10px;
+   }
+   .t2{
+    margin-top: -85px;
+    margin-left: -10px;
+   }
+
+
+   .pt3{
+    margin-top: -100px;
+    margin-left: -250px;
+   }
+   .t3{
+    margin-top: -85px;
+    margin-left: 15px;
+   }
+
+
+
    .pt4{
-    margin-top: 450px;
+    margin-top: 250px;
     margin-left: -445px;
    }
-   .parte04V{
-    margin-top: 430px;
+   .t4{
+    margin-top: -85px;
+    margin-left: -25px;
+   }
+
+
+
+   video{
+    scale: 60%;
+}
+
+.parte01V{
+    margin-left: 300px;
+    margin-right: 660px;
+    margin-top: -45px;
+   }
+
+   .parte02V{
+    margin-top: -45px !important;
+    margin-right: -10px !important;
+    margin-left: -460px !important;
+   }
+
+   .parte03V{
+    margin-top: 300px;
+    margin-right: 245px;
+   }
+
+
+
+   .parte04V{   
     margin-left: -455px;
+    margin-right: 1080px;
+    margin-top: 300px !important;
+
    }
-   .parte01V{
-    margin-top: 430px;
-    margin-right: -345px;
-   }
+   
+
    .Poster{
     width: 450px;
    }
-
    .Posterr{
-    width: 450px;
+    width: 10px;
    }
-
 }
 
 
 
-
-
-@media (min-width: 450px) and (max-width: 560px){
-    img{    
-        width: 50px;
-    }
-.PORTAL{
-    width: 350px;
-    margin-top: -100px !important;
-    margin-left: 80px;
-
-}
-.texto{
-    scale: 60%;
-    margin-left: 20px;
-}
-
-}
-
-
-@media (min-width: 560px) and (max-width: 759px){
-    img{    
-        width: 80px;
-    }
-.PORTAL{
-    width: 350px;
-    margin-top: -100px !important;
-    margin-left: 160px;
-
-}
-.texto{
-    scale: 80%;
-    margin-left: 50px;
-}
-
-}
-
-
-@media (min-width: 760px) and (max-width: 900px){
-    img{    
-        width: 110px;
-    }
-.PORTAL{
-    width: 400px;
-    margin-top: -100px !important;
-    margin-left: 100px;
-
-}
-.texto{
-    scale: 80%;
-    margin-left: 50px;
-}
-
-}
-
-@media (min-width: 900px) and (max-width: 1200px){
-    
-    img{
-        width: 150px;
-    }
-    .PORTAL{
-        margin-top: -100px !important;
-        margin-left: 180px;
-    
-    }
-    .texto{
-        scale: 100%;
-        margin-left: 65px;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1310px){
-    img{
-        width: 130px;
-    }
-
-    .PORTAL{
-        margin-top: -100px !important;
-    }
-    
-    .texto{
-        scale: 100%;
-        margin-left: 65px;
-    }
-
-}
