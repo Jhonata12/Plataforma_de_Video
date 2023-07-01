@@ -700,20 +700,30 @@ video {
     scale: 80%;
 }
 
+h2{
+    scale: 80%;
+    margin-top: -30px;
+}
+
 .pt1{
     margin-right: -70px;
+    margin-left: 35px;
 }
 
 .pt2{
     margin-right: -70px;
 }
 .t2{
-margin-left: -38px;
+margin-left: -48px;
 }
 
 .pt3{
     margin-right: -70px;
 }
+.t2{
+    margin-left: -48px;
+    }
+    
 
 .parte01V{  
     margin-right: -100px;
@@ -727,55 +737,17 @@ margin-left: -38px;
     margin-right: -100px;
 }
 
+.pt1{
+    margin-right: -100px;
 }
 
+.pt2{
+    margin-right: -100px;
+}
 
-/*________________________Tamanho do Dispositivo_________________________________*/
-
-@media (min-width: 1001px) and (max-width: 1320px){
-
-    .img{
-        scale: 75%;
-        }
-    
-     .img1{
-      scale: 75%;
-      
-          }
-      .imgV{
-     scale: 75%;
-         }
-    
-    video {
-        scale: 80%;
-    }
-    
-    .pt1{
-        margin-right: -70px;
-    }
-    
-    .pt2{
-        margin-right: -70px;
-    }
-    .t2{
-    margin-left: -38px;
-    }
-    
-    .pt3{
-        margin-right: -70px;
-    }
-    
-    .parte01V{  
-        margin-right: -100px;
-        margin-left: -100px;
-    }
-    
-    .parte02V{  
-        margin-right: -100px !important;
-    }
-    .parte03V{  
-        margin-right: -100px;
-    }
+.pt3{
+    margin-right: -100px;
+}
 
 }
 
