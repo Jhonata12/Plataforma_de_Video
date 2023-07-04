@@ -683,6 +683,9 @@ h1{
 
 @media (min-width: 1001px) and (max-width: 1320px){
 
+    .PORTAL{
+        margin-left: 270px;
+    }
  .img{
     scale: 75%;
     }
