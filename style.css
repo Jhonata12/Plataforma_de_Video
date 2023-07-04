@@ -165,6 +165,100 @@ h2{
         height: 900px;
     }
 
+    img{
+        width: 200px;
+    }
+    .pt1{
+        margin-right: -340px;
+        margin-left: 70px;
+    }
+    .t1{
+        margin-left: -40px;
+    }
+    
+
+
+    .pt2{
+        margin-right: 30px;
+        margin-top: 450px;
+    }
+    .t2{
+        margin-left: -55px;
+        
+    }
+
+
+    .pt3{
+        margin-right: -360px;
+    }
+    .t3{
+        margin-left: -7px;
+    }
+
+
+    .pt4{
+        margin-top: 450px;
+    }
+    
+
+video{
+    width: 130px;
+}
+
+.parte01V{
+    margin-right: -325px;
+    margin-top: 400px;
+    margin-left: -115px;
+}
+
+.parte03V{
+    margin-right: -325px;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 450px) and (max-width: 1250px) {
+    
+    body{
+        overflow-x: hidden !important;
+    }
+    .PORTAL{
+        margin: 0;
+        margin-top: -50px;
+        margin-left: 230px;
+        width: 500px !important;
+    }
+    header{
+        width: 890px;
+        margin-left: 10px;
+    }
+
+  .int{
+        width: 450px !important;
+        margin-top: 100px !important;
+        margin-left: 20px;
+
+    }
+    .geral0{
+        width: 890px;
+        margin-left: 10px;
+        height: 500px;
+    }
+    .geral{
+        width: 890px;
+        margin-left: 10px;
+        height: 980px;
+
+    }
+    .geral2{
+        width: 890px;
+        margin-left: 10px;
+        height: 900px;
+    }
 
     img{
         width: 200px;
@@ -202,9 +296,100 @@ h2{
     }
     
 
+video{
+    width: 130px;
+}
+
+.parte01V{
+    margin-right: -325px;
+    margin-top: 400px;
+    margin-left: -115px;
+}
+
+.parte03V{
+    margin-right: -325px;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 100px) and (max-width: 369px){
+    
+    body{
+        overflow-x: hidden !important;
+    }
+    .PORTAL{
+        margin: 0;
+        margin-top: -50px;
+        margin-left: 230px;
+        width: 500px !important;
+    }
+    header{
+        width: 890px;
+        margin-left: 10px;
+    }
+
+  .int{
+        width: 450px !important;
+        margin-top: 100px !important;
+        margin-left: 20px;
+
+    }
+    .geral0{
+        width: 890px;
+        margin-left: 10px;
+        height: 500px;
+    }
+    .geral{
+        width: 890px;
+        margin-left: 10px;
+        height: 980px;
+
+    }
+    .geral2{
+        width: 890px;
+        margin-left: 10px;
+        height: 900px;
+    }
+
+    img{
+        width: 200px;
+    }
+    .pt1{
+        margin-right: -340px;
+        margin-left: 70px;
+    }
+    .t1{
+        margin-left: -40px;
+    }
+    
 
 
+    .pt2{
+        margin-right: 30px;
+        margin-top: 450px;
+    }
+    .t2{
+        margin-left: -55px;
+        
+    }
 
+
+    .pt3{
+        margin-right: -360px;
+    }
+    .t3{
+        margin-left: -7px;
+    }
+
+
+    .pt4{
+        margin-top: 450px;
+    }
+    
 
 video{
     width: 130px;
@@ -222,6 +407,6 @@ video{
     margin-left: 50px;
 }
 
-
 }
+
 
