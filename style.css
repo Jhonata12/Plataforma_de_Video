@@ -11,6 +11,8 @@ body {
 }
 .PORTAL:hover{
     transform: none;
+    border: none !important;
+    box-shadow: none !important;
 }
 header{
     background-color: #9c7bf8;
