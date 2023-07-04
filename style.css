@@ -67,18 +67,25 @@ img{
 }
 img:hover{
     transform: scale(1.06);
+    border: solid 1px white;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
 }
+
 .imgV{
     margin-left: 15px;
 }
+
 video{
     width: 150px;
     border-radius: 15px;
     margin:35px;
     margin-top: 100px !important;
 }
+
 video:hover{
-    transform: scale(1.05);
+    transform: scale(1.06);
+    border: solid 1px white;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
 }
 
 h1{
