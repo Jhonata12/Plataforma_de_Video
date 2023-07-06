@@ -131,6 +131,9 @@ h2{
     margin: 0 !important;
    }
 
+   .parte01V{
+    margin-left: -100px;
+   }
 
 
 /*________________________Tamanho do Dispositivo_________________________________*/
@@ -230,7 +233,7 @@ video{
 
 /*________________________Tamanho do Dispositivo_________________________________*/
 
-@media (min-width: 450px) and (max-width: 1250px) {
+@media (min-width: 450px) and (max-width: 950px) {
     
     body{
         overflow-x: hidden !important;
@@ -288,6 +291,7 @@ video{
     }
     .t2{
         margin-left: -55px;
+        margin-right: -5px;
         
     }
 
@@ -415,6 +419,175 @@ video{
     margin-top: 400px;
     margin-left: 50px;
 }
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 951px) and (max-width: 1151px) {
+    
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .PORTAL{
+        margin-left: 230px;
+    }
+
+    img{
+        scale: 0.83;
+    }
+    h2{
+        scale: 0.75;
+        margin-top: -20px;
+    }
+
+    .pt1{
+        margin-right: -100px;
+    }
+    .t1{
+        margin-left: -50px;
+    }
+    
+    .pt2{
+        margin-right: -120px;
+    }
+
+    .pt3{
+        margin-right: -130px;
+    }
+    .t3{
+        margin-left: -20px;
+    }
+
+    video{
+        scale: 0.80;
+    }
+
+    .parte01V{
+        margin-right: -120px;
+        margin-left: -120px;
+    }
+    
+    .parte02V{
+        margin-right: -50px;
+        
+    }
+
+    .parte03V{
+        margin-right: -120px;
+        margin-left: -110px !important;
+    }
+
+    
+
+
+}
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 1151px) and (max-width: 1250px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    img{
+        scale: 0.85;
+    }
+    h2{
+        scale: 0.90;
+        margin-top: -20px;
+    }
+
+    .pt1{
+        margin-right: -50px;
+    }
+    
+    .pt2{
+        margin-right: -50px;
+    }
+
+    .pt3{
+        margin-right: -80px;
+    }
+    .t3{
+        margin-left: -2px;
+    }
+
+    video{
+        scale: 0.85;
+    }
+
+    .parte01V{
+        margin-right: -50px;
+        margin-left: -120px;
+    }
+    
+    .parte02V{
+        margin-right: -50px;
+    }
+
+    .parte03V{
+        margin-right: -50px;
+        margin-left: -40px;
+    }
+
+
+
+
+
+}
+
+
+/*________________________Tamanho do Dispositivo_________________________________*/
+
+@media (min-width: 1251px) and (max-width: 1350px) {
+
+
+    body{
+        overflow-x: hidden !important;
+    }
+    img{
+        scale: 0.85;
+    }
+    h2{
+        scale: 0.90;
+        margin-top: -20px;
+    }
+
+    .pt1{
+        margin-right: -50px;
+    }
+    
+    .pt2{
+        margin-right: -50px;
+    }
+
+    .pt3{
+        margin-right: -80px;
+    }
+    .t3{
+        margin-left: -2px;
+    }
+
+    video{
+        scale: 0.85;
+    }
+
+    .parte01V{
+        margin-right: -50px;
+        margin-left: -120px;
+    }
+    
+    .parte02V{
+        margin-right: -50px;
+    }
+
+    .parte03V{
+        margin-right: -50px;
+        margin-left: -40px;
+    }
 
 }
 
