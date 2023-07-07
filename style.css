@@ -230,30 +230,29 @@ h2{
     }
     
 
-video{
-    width: 130px;
-}
 
 .parte01V{
-    width: 400px;
-    margin-right: -400px;
+    width: 260px;
+    margin-right: -230px;
     margin-top: 400px;
-    margin-left: -250px;
+    margin-left: -680px;
 }
 
 .parte02V{
-    width: 400px;
+    width: 260px;
+    margin-left: -30px;
+    margin-right: 150px;
 }
 
 .parte03V{
-    width: 400px;
-    margin-right: -400px;
+    width: 260px;
+    margin-right: -260px;
     margin-top: 400px;
     margin-left: -50px;
 }
 .parte04V{
-    width: 400px;
-    margin-right: -250px;
+    width: 260px;
+    margin-right: -450px;
 }
 }
 
