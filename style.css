@@ -85,6 +85,10 @@ video{
     margin-top: 100px !important;
 }
 
+video{
+    max-width: 100%;
+}
+
 video:hover{
     transform: scale(1.06);
     border: solid 1px white;
@@ -128,13 +132,25 @@ h2{
     margin-left: 50px;
    }
 
+   .parte01V{
+    width: 400px;
+    margin-left: -45px;
+   }
+
    .parte02V{
+    width: 400px;
     margin: 0 !important;
    }
 
-   .parte01V{
-    margin-left: -100px;
+   .parte03V{
+    width: 400px;
    }
+
+   .parte04V{
+    width: 400px;
+   }
+
+   
 
 
 /*________________________Tamanho do Dispositivo_________________________________*/
@@ -219,15 +235,18 @@ video{
 }
 
 .parte01V{
-    margin-right: -325px;
+    margin-right: -400px;
     margin-top: 400px;
-    margin-left: -115px;
+    margin-left: -250px;
 }
 
 .parte03V{
-    margin-right: -325px;
+    margin-right: -400px;
     margin-top: 400px;
-    margin-left: 50px;
+    margin-left: -50px;
+}
+.parte04V{
+    margin-right: -250px;
 }
 
 }
@@ -315,17 +334,19 @@ video{
 }
 
 .parte01V{
-    margin-right: -325px;
+    margin-right: -400px;
     margin-top: 400px;
-    margin-left: -115px;
+    margin-left: -250px;
 }
 
 .parte03V{
-    margin-right: -325px;
+    margin-right: -400px;
     margin-top: 400px;
-    margin-left: 50px;
+    margin-left: -50px;
 }
-
+.parte04V{
+    margin-right: -250px;
+}
 }
 
 /*________________________Tamanho do Dispositivo_________________________________*/
@@ -410,15 +431,18 @@ video{
 }
 
 .parte01V{
-    margin-right: -325px;
+    margin-right: -400px;
     margin-top: 400px;
-    margin-left: -115px;
+    margin-left: -250px;
 }
 
 .parte03V{
-    margin-right: -325px;
+    margin-right: -400px;
     margin-top: 400px;
-    margin-left: 50px;
+    margin-left: -50px;
+}
+.parte04V{
+    margin-right: -250px;
 }
 
 }
