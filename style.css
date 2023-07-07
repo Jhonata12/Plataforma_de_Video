@@ -54,8 +54,9 @@ header{
     margin-left: 125px;
 }
 .int{
-    width: 550px!important;
-    margin-right: 100px;
+    width: 850px!important;
+    margin-right: 80px;
+    margin-top: 50px !important;
 }
 img{
     display: flex;
@@ -155,15 +156,15 @@ h2{
     }
 
   .int{
-        width: 450px !important;
-        margin-top: 100px !important;
-        margin-left: 20px;
+        width: 650px !important;
+        margin-top: 40px !important;
+        margin-left: 80px;
 
     }
     .geral0{
         width: 890px;
         margin-left: 10px;
-        height: 500px;
+        height: 450px;
     }
     .geral{
         width: 890px;
@@ -250,9 +251,9 @@ video{
     }
 
   .int{
-        width: 450px !important;
-        margin-top: 100px !important;
-        margin-left: 20px;
+        width: 650px !important;
+        margin-top: 40px !important;
+        margin-left: 80px;
 
     }
     .geral0{
@@ -346,15 +347,15 @@ video{
     }
 
   .int{
-        width: 450px !important;
-        margin-top: 100px !important;
-        margin-left: 20px;
+        width: 650px !important;
+        margin-top: 40px !important;
+        margin-left: 80px;
 
     }
     .geral0{
         width: 890px;
         margin-left: 10px;
-        height: 500px;
+        height: 450px;
     }
     .geral{
         width: 890px;
