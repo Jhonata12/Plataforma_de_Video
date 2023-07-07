@@ -81,12 +81,9 @@ img:hover{
 video{
     width: 150px;
     border-radius: 15px;
-    margin:35px;
+    margin: 35px;
     margin-top: 100px !important;
-}
-
-video{
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 video:hover{
@@ -150,9 +147,6 @@ h2{
     width: 400px;
    }
 
-   video{
-    max-width: 100%;
-   }
    
 
 
@@ -337,17 +331,24 @@ video{
 }
 
 .parte01V{
+    width: 400px;
     margin-right: -400px;
     margin-top: 400px;
     margin-left: -250px;
 }
 
+.parte02V{
+    width: 400px;
+}
+
 .parte03V{
+    width: 400px;
     margin-right: -400px;
     margin-top: 400px;
     margin-left: -50px;
 }
 .parte04V{
+    width: 400px;
     margin-right: -250px;
 }
 }
@@ -434,17 +435,23 @@ video{
 }
 
 .parte01V{
+    width: 400px;
     margin-right: -400px;
     margin-top: 400px;
     margin-left: -250px;
 }
+.parte02V{
+    width: 400px;
+}
 
 .parte03V{
+    width: 400px;
     margin-right: -400px;
     margin-top: 400px;
     margin-left: -50px;
 }
 .parte04V{
+    width: 400px;
     margin-right: -250px;
 }
 
@@ -493,16 +500,22 @@ video{
     }
 
     .parte01V{
+        width: 400px;
         margin-right: -120px;
         margin-left: -120px;
     }
     
     .parte02V{
+        width: 400px;
         margin-right: -50px;
         
     }
+    .parte02V{
+        width: 400px;
+    }
 
     .parte03V{
+        width: 400px;
         margin-right: -120px;
         margin-left: -110px !important;
     }
@@ -548,20 +561,25 @@ video{
     }
 
     .parte01V{
+        width: 400px;
         margin-right: -50px;
         margin-left: -120px;
     }
     
     .parte02V{
+        width: 400px;
         margin-right: -50px;
     }
 
     .parte03V{
+        width: 400px;
         margin-right: -50px;
         margin-left: -40px;
     }
 
-
+    .parte04V{
+        width: 400px;
+    }
 
 
 
