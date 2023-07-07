@@ -54,8 +54,8 @@ header{
     margin-left: 125px;
 }
 .int{
-    width: 850px!important;
-    margin-right: 80px;
+    width: 900px!important;
+    margin-right: 10px;
     margin-top: 50px !important;
 }
 img{
@@ -79,7 +79,7 @@ img:hover{
 }
 
 video{
-    width: 150px;
+   
     border-radius: 15px;
     margin: 35px;
     margin-top: 100px !important;
@@ -130,21 +130,24 @@ h2{
    }
 
    .parte01V{
-    width: 400px;
-    margin-left: -45px;
+    width: 280px;
+    margin-left: -200px;
+    margin-right: 60px;
    }
 
    .parte02V{
-    width: 400px;
-    margin: 0 !important;
+    width: 280px;
+    margin-right: 60px;
    }
 
    .parte03V{
-    width: 400px;
+    width: 280px;
+    margin-right: 60px;
    }
 
    .parte04V{
-    width: 400px;
+    width: 280px;
+    margin-right: 50px;
    }
 
    
@@ -232,20 +235,26 @@ video{
 }
 
 .parte01V{
+    width: 400px;
     margin-right: -400px;
     margin-top: 400px;
     margin-left: -250px;
 }
 
+.parte02V{
+    width: 400px;
+}
+
 .parte03V{
+    width: 400px;
     margin-right: -400px;
     margin-top: 400px;
     margin-left: -50px;
 }
 .parte04V{
+    width: 400px;
     margin-right: -250px;
 }
-
 }
 
 /*________________________Tamanho do Dispositivo_________________________________*/
@@ -496,28 +505,29 @@ video{
     }
 
     video{
-        scale: 0.80;
+        scale: 0.72;
     }
 
     .parte01V{
-        width: 400px;
-        margin-right: -120px;
-        margin-left: -120px;
+        width: 280px;
+        margin-right: -60px;
+        margin-left: -180px;
     }
     
     .parte02V{
-        width: 400px;
-        margin-right: -50px;
-        
-    }
-    .parte02V{
-        width: 400px;
+        width: 280px;
+        margin-right: 40px;
     }
 
     .parte03V{
-        width: 400px;
-        margin-right: -120px;
+        width: 280px;
+        margin-right: -35px;
         margin-left: -110px !important;
+    }
+
+    .parte04V{
+        width: 280px;
+        margin-left: -40px;
     }
 
     
@@ -561,25 +571,26 @@ video{
     }
 
     .parte01V{
-        width: 400px;
-        margin-right: -50px;
-        margin-left: -120px;
-    }
+        width: 280px;
+        margin-left: -200px;
+        margin-right: -10px;
+       }
     
-    .parte02V{
-        width: 400px;
-        margin-right: -50px;
-    }
-
-    .parte03V{
-        width: 400px;
-        margin-right: -50px;
-        margin-left: -40px;
-    }
-
-    .parte04V{
-        width: 400px;
-    }
+       .parte02V{
+        width: 280px;
+        margin-right: -10px;
+       }
+    
+       .parte03V{
+        width: 280px;
+        margin-right: -30px;
+       }
+    
+       .parte04V{
+        width: 280px;
+        margin-right: 50px;
+       }
+    
 
 
 
@@ -622,17 +633,25 @@ video{
     }
 
     .parte01V{
-        margin-right: -50px;
-        margin-left: -120px;
-    }
+        width: 280px;
+        margin-left: -200px;
+        margin-right: 60px;
+       }
     
-    .parte02V{
-        margin-right: -50px;
-    }
-
-    .parte03V{
-        margin-right: -50px;
-        margin-left: -40px;
-    }
+       .parte02V{
+        width: 280px;
+        margin-right: 60px;
+       }
+    
+       .parte03V{
+        width: 280px;
+        margin-right: 60px;
+       }
+    
+       .parte04V{
+        width: 280px;
+        margin-right: 50px;
+       }
+    
 
 }
