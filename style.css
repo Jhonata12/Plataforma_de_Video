@@ -83,6 +83,7 @@ video{
     border-radius: 15px;
     margin: 35px;
     margin-top: 10px !important;
+    
 }
 
 video:hover{
@@ -184,7 +185,7 @@ h2{
   .int{
         width: 650px !important;
         margin-top: 40px !important;
-        margin-left: 80px;
+        margin-left: 20px;
 
     }
     .geral0{
