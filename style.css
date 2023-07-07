@@ -79,7 +79,6 @@ img:hover{
 }
 
 video{
-   
     border-radius: 15px;
     margin: 35px;
     margin-top: 100px !important;
@@ -241,6 +240,9 @@ h2{
     }
     
 
+    video{
+    width: 260px;
+    }
 
 .parte01V{
     width: 260px;
