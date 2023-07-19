@@ -141,9 +141,6 @@ h2{
     margin-right: -10px;
     margin-top: 120px;
    }
-   .V1{
-    width: 170px;
-   }
  
 
    .parte02V{
@@ -620,6 +617,10 @@ video{
 @media (min-width: 1251px) and (max-width: 1350px) {
 
 
+    .PORTAL{
+        margin-left: 370px;
+    }
+
     body{
         overflow-x: hidden !important;
     }
@@ -654,7 +655,7 @@ video{
     .parte01V{
         width: 280px;
         margin-right: 25px;
-        margin-left: -150px;
+        margin-left: -270px;
     }
     
     .parte02V{
@@ -673,6 +674,5 @@ video{
         margin-left: -40px;
     }
 
-    
 
 }
