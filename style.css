@@ -242,34 +242,33 @@ h2{
     }
 
     video{
-        max-width: 100%;
         width: 150px;
         margin-top: 100px;
        }
     
 
 .parte01V{
-    width: 260px;
-    margin-right: -230px;
+  
+    margin-right: -310px;
     margin-top: 550px;
     margin-left: -680px;
 }
 
 .parte02V{
-    width: 260px;
+    
     margin-left: -30px;
-    margin-right: 150px;
+    margin-right: 120px;
 }
 
 .parte03V{
-    width: 260px;
-    margin-right: -260px;
+    
+    margin-right: -350px;
     margin-top: 550px;
     margin-left: -50px;
 }
 .parte04V{
-    width: 260px;
-    margin-right: -450px;
+   
+    margin-right: -550px;
 }
 }
 
