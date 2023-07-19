@@ -136,29 +136,29 @@ h2{
    }
 
    .parte01V{
-    width: 280px;
+
     margin-left: -220px;
-    margin-right: 60px;
+    margin-right: -10px;
     margin-top: 120px;
    }
  
 
    .parte02V{
-    width: 280px;
-    margin-right: 60px;
+   
+    margin-right: -10px;
     margin-top: 120px;
    }
   
 
    .parte03V{
-    width: 280px;
-    margin-right: 60px;
+ 
+    margin-right: -20px;
     margin-top: 120px;
    }
   
    .parte04V{
-    width: 280px;
-    margin-right: 50px;
+ 
+    margin-right: -70px;
     margin-top: 120px;
    }
  
@@ -527,13 +527,13 @@ video{
     }
 
     video{
-        width: 140px;
+        width: 130px;
     }
 
     .parte01V{
         width: 280px;
         margin-right: -25px;
-        margin-left: -150px;
+        margin-left: -280px;
     }
     
     .parte02V{
@@ -596,18 +596,18 @@ video{
 
     .parte01V{
         width: 280px;
-        margin-right: 25px;
-        margin-left: -150px;
+        margin-right: -25px;
+        margin-left: -270px;
     }
     
     .parte02V{
         width: 280px;
-        margin-right: 130px;
+        margin-right: 80px;
     }
 
     .parte03V{
         width: 280px;
-        margin-right: 55px;
+        margin-right: 5px;
         margin-left: -110px !important;
     }
 
