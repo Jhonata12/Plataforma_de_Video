@@ -169,9 +169,7 @@ h2{
 
 @media (min-width: 370px) and (max-width: 449px){
     
-    body{
-        overflow-x: hidden !important;
-    }
+   
     .PORTAL{
         margin: 0;
         margin-top: -50px;
@@ -383,9 +381,7 @@ video{
 
 @media (min-width: 100px) and (max-width: 369px){
     
-    body{
-        overflow-x: hidden !important;
-    }
+   
     .PORTAL{
         margin: 0;
         margin-top: -50px;
